@@ -1,0 +1,145 @@
+/* Base styles for the login popup */
+.login-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 50;
+    overflow-y: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Popup container */
+  .popup-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    max-width: 600px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Content inside the popup */
+  .popup-content {
+    padding: 1.5rem;
+    background: white;
+    border-radius: 1rem;
+  }
+  
+  /* Heading styles */
+  .popup-heading {
+    font-size: 1.875rem;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  /* Form styles */
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .input-label {
+    display: block;
+    font-size: 0.875rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+  }
+  
+  .relative {
+    position: relative;
+  }
+  
+  .show-password {
+    position: absolute;
+    top: 50%;
+    right: 0.75rem;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+  /* Button styles */
+  .primary-btn {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: 1rem;
+    text-align: center;
+    transition: background-color 0.3s;
+  }
+  
+  .primary-btn:hover {
+    background-color: #e64a19;
+  }
+  
+  /* Social media icons styles */
+  .social-icons {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
+  .social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.25rem;
+    height: 2.25rem;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  
+  .social-icon:hover {
+    transform: scale(1.1);
+  }
+  
+  .google-icon {
+    background-color: #fff;
+  }
+  
+  .linkedin-icon {
+    background-color: #0077b5;
+    color: white;
+  }
+  
+  /* Text styles */
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-sm {
+    font-size: 0.875rem;
+  }
+  
+  .text-shadow {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  }
+  
+  .cursor-pointer {
+    cursor: pointer;
+  }
+  
